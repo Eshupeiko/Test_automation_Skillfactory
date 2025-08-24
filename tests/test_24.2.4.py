@@ -11,6 +11,8 @@ class TestСalc:
     def test_multiply_calculate_correctly(self):
         assert self.calc.multiply(2, 2) == 4
 
+    def test_division(self):
+        assert self.calc.division(2, 2) == 1
 
-    def test_multiply_failed(self):
-        assert self.calc.multiply(2, 2) == 5
+    def test_subtraction(self):
+        assert self.calc.subtraction(2, 2) == 0
